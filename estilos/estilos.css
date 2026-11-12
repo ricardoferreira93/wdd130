@@ -1,3 +1,8 @@
+:root {
+    --padding-2px: 2px;
+    --cor--titulo: darkblue;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -10,14 +15,14 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--cor--titulo);
 }
 
 img {
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    padding: var(--padding-2px);
     box-shadow: 0 0 30px gray;
 }
 
@@ -49,7 +54,7 @@ main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 2px;
+    padding: var(--padding-2px);
     box-shadow: 0 0 30px gray;
 }
 
