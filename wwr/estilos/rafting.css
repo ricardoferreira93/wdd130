@@ -96,6 +96,10 @@ article {
     height: auto;
 }
 
+hero h1 {
+    position: absolute;
+}
+
 h1 {
     position: absolute;
     top: 20px;
