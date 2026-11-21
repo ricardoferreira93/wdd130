@@ -50,10 +50,6 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 .hero {
     position: relative;
 }
@@ -84,4 +80,12 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+footer {
+    position: relative;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
