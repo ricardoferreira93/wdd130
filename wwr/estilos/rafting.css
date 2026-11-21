@@ -23,7 +23,6 @@ header {
     align-items: center;
     background-color: var(--cor-primaria);
     /* ok */
-    color: var(--cor-destaque2);
     padding: 12px 16px;
 
 }
@@ -199,7 +198,7 @@ footer p {
     margin: 0;
     padding: 0;
     white-space: nowrap;
-    color: black;
+    color: white;
 }
 
 footer .socialmedia {
