@@ -115,6 +115,7 @@ h1 {
     position: absolute;
     bottom: 10px;
     background-color: var(--cor-secundaria);
+    color: #000000;
 }
 
 .hero article img {
