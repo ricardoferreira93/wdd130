@@ -96,7 +96,7 @@ article {
     height: auto;
 }
 
-hero h1 {
+.hero h1 {
     position: absolute;
 }
 
