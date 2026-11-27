@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/formulario-pesquisa.css">
+    <title>Formulário de Pesquisa</title>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | Formulário HTML - Enquete do Usuário</h1>
+    </header>
+    <main>
+        <aside class="painel-lateral">
+            <img src="https://img.icons8.com/?size=100&id=S1RK2Nhn2FC5&format=png&color=000000"
+              alt="Imagem Formulário">
+            <h2>WDD 130</h2>
+            <h3>Formulário HTML</h3>
+            <h3>Pesquisa de Usuário</h3>
+            <p>Preencha os campos para nos ajudar a conhecê-lo melhor!</p>
+
+        </aside>
+        <form action="">
+            <fieldset class="contato">
+                <legend>Informações de Contato</legend>
+
+                <label for="nome-completo">Nome Completo:</label>
+                <input type="text" name="nome-completo" id="nome-completo" required>
+
+                <label for="emaildousuario">Email:</label>
+                <input type="email" name="emaildousuario" id="emaildousuario" required>
+            </fieldset>
+
+            <fieldset class="perguntas">
+                <legend>Perguntas</legend>
+
+                <label>Qual é o seu navegador favorito?</label>
+
+                <div class="navegadores">
+
+                    <label class="opcao-navegador">
+                        <input type="radio" name="navegador" value="chrome" checked>
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/chrome/default.svg"
+                          alt="Google Chrome">
+                        <span>Chrome</span>
+                    </label>
+
+                    <label class="opcao-navegador">
+                        <input type="radio" name="navegador" value="edge">
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/microsoft-edge/default.svg"
+                          alt="Microsoft Edge">
+                        <span>Microsoft Edge</span>
+                    </label>
+
+                    <label class="opcao-navegador">
+                        <input type="radio" name="navegador" value="opera">
+                        <img src="https://cdn.simpleicons.org/opera/FF1B2D" alt="Opera">
+                        <span>Opera</span>
+                    </label>
+
+                </div>
+
+                <label for="pet">Você tem um bichinho de estimação?</label>
+                <input type="checkbox" name="pet" id="pet">
+
+                <label class="campo-feedback" for="feedback">Liste os lugares onde você
+                    morou:</label>
+                <textarea name="feedback" id="feedback" rows="6"
+                  placeholder="Exemplos: Arraial do Cabo - RJ, São Paulo, Curitiba... "></textarea>
+            </fieldset>
+
+            <button type="submit">Enviar Pesquisa</button>
+        </form>
+    </main>
+    <footer>
+        <p>
+            ©2026 | Formulário HTML - Atividade de Pesquisa de Usuário | Ricardo Ferreira
+        </p>
+
+    </footer>
+</body>
+
+</html>
